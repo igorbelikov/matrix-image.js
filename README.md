@@ -1,4 +1,4 @@
 matrix-image
 ============
 
-Create images from DOM elements by JS matrix.
+Позволяет создавать изображение или анимацию из DOM элементов по матрице.
