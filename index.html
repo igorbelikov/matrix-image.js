@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Matrix Image</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/matrix-image.js"></script>
+</head>
+<body>
+<script>
+    var mi = new MatrixImage({
+        events: {
+            onClick: function (e) {
+                alert('click');
+                console.log(e)
+            }
+        }
+    });
+</script>
+</body>
+</html>
